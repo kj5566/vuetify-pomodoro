@@ -74,3 +74,17 @@ const currentTime = computed(() => {
   return m + ':' + s
 })
 </script>
+<style lang="scss">
+#home{
+font-size:40px;
+border-top:5px solid lightgreen;
+line-height:3;
+margin:auto;
+border-radius:50px;
+height:75vh;
+width:75vh;
+color:lightgreen;
+background:red;
+text-align:center;
+}
+</style>

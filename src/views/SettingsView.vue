@@ -27,3 +27,17 @@ import { storeToRefs } from 'pinia'
 const settings = useSettingsStore()
 const { alarms, selectedAlarms } = storeToRefs(settings)
 </script>
+<style lang="scss">
+#settings{
+
+border-top:5px solid lightgreen;
+line-height:3;
+margin:auto;
+border-radius:50px;
+height:50vh;
+width:50vh;
+color:lightgreen;
+background:red;
+text-align:center;
+}
+</style>

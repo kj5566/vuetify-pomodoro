@@ -74,3 +74,17 @@ const onInputSubmit = async () => {
   input.value.reset()
 }
 </script>
+<style lang="scss">
+#list{
+font-size:20px;
+border-top:5px solid lightgreen;
+line-height:3;
+margin:auto;
+border-radius:50px;
+height:75vh;
+width:75vh;
+color:lightgreen;
+background:red;
+text-align:center;
+}
+</style>

@@ -1,6 +1,6 @@
 <template lang="pug">
-v-app
-  v-app-bar(color="primary")
+v-app#app
+  v-app-bar(color="black")
     v-app-bar-title 番茄鐘
     v-spacer
     v-btn(icon="mdi-home" variant="text" to="/")
